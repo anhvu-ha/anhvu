@@ -103,7 +103,7 @@ html[data-theme="Light2"]  {
 }
 
 
-html[data-theme="Light3"]  {
+html {
     --main-bg-color: linear-gradient(50deg, #a2d1ff, #ffffff);
     /* --main-bg-color: url(../img/bg1.jpg); */
     --left-bg: #d7dcef;
@@ -125,6 +125,7 @@ html[data-theme="Light3"]  {
     --item-left-text-color: #494949;
     --footer-text-color: #ffffff;
     --left-tag-item: #c7e1fa;
+}
 }
 body {
     display: flex;
