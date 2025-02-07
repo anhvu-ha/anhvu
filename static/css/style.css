@@ -55,24 +55,27 @@ img a {
 
 
 html[data-theme="Dack"] {
-    --main-bg-color: rgb(0, 0, 0);
-    --main-text-color: #fff;
-    --gradient-start: rgb(133, 62, 255);
-    --gradient-middle: #f76cc6;
-    --gradient-end: rgb(255, 255, 255);
+    --main-bg-color: linear-gradient(50deg, #a2d1ff, #ffffff);
+    /* --main-bg-color: url(../img/bg1.jpg); */
+    --left-bg: #d7dcef;
+    --main-text-color: #000000;
+    --gradient-start: #bd34fe;
+    --gradient-middle: #e0321b;
+    --gradient-end: #41d1ff;
     --purple-text-color: #747bff;
-    --text-bg-color: rgb(26, 4, 48);
-    --icon-1-hover-color: rgb(68, 120, 241);
-    --icon-2-hover-color: rgb(232, 68, 241);
-    --icon-3-hover-color: rgb(179, 206, 0);
-    --icon-4-hover-color: rgb(201, 13, 0);
-    --icon-5-hover-color: rgb(111, 44, 20);
-    --item-bg-color: rgb(19, 20, 24);
-    --item-hover-color: rgb(19, 23, 27);
-    --item-left-title-color: rgb(255, 255, 255);
-    --item-left-text-color: rgb(142, 142, 142);
-    --footer-text-color: #646464;
-    --left-tag-item: linear-gradient(50deg, #1f2327, #000000);
+    --text-bg-color: rgb(121 163 231);
+    --icon-bg-color: rgba(249, 250, 251, 0.5);
+    --icon-1-hover-color: rgb(255, 183, 156);
+    --icon-2-hover-color: rgb(255, 167, 161);
+    --icon-3-hover-color: rgb(169, 255, 248);
+    --icon-4-hover-color: rgb(251, 173, 255);
+    --icon-5-hover-color: rgb(137, 172, 255);
+    --item-bg-color: rgba(249, 250, 251, 0.5);
+    --item-hover-color: rgba(244, 245, 246, 0.8);
+    --item-left-title-color: #000000;
+    --item-left-text-color: #494949;
+    --footer-text-color: #ffffff;
+    --left-tag-item: #c7e1fa;
 }
 
 html[data-theme="Light2"]  {
